@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Wensite Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+<!--------Our Courses content---------->
+<section class="course">
+    <h1>
+        Vision, Mission, Educational philosophy
+    </h1>
+    <p>Comprehensive, Creative, Serving.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Vision</h3>
+            <p>
+                University of Information Technology becomes a prestigious university in information technology - communication <br>and related fields in Asia.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Mission</h3>
+            <p>
+                The University of Information Technology is a leading center for scientific research and <br>technology transfer in information and communication technology and related fields.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Educational philosophy</h3>
+            <p>
+                The University of Information Technology aims at the comprehensive development of<br> people, upholding independence, creativity and serving the community.
+            </p>
+        </div>
+    </div>
+
+<!--------------Facilities--------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Comprehensive, Creative, Serving.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>Library</h3>
+            <p>Serving students at all times.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/eduford_img/sport.jpg">
+            <h3>Largest Play Ground</h3>
+            <p>Sports improve health.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>The canteen has many delicious dishes.</p>
+        </div>
+    </div>
+</section>
+    <!--Footer-->
+</section>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-github"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by With Love </p>
+    </section>
+
+<!---------JavaScript for Toggle Menu -------->
+<script>
+    var navLinks=document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
